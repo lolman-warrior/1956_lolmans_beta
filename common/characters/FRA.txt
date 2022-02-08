@@ -1668,7 +1668,7 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_form_the_popular_front 
+				has_completed_focus  = FRA_radicalize_front 
 			}
 			traits  = {
 				compassionate_gentleman 

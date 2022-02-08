@@ -6933,7 +6933,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = FRA_form_the_popular_front
+				has_completed_focus = FRA_radicalize_front
 			}
 			modifier = { #Appropriate PC for Foreign Affairs
 				factor = 1.25
