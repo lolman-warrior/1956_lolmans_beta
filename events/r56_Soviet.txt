@@ -518,21 +518,21 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_country_flag = SOV_AI_RANDOM_RETURN_OF_THE_TSAR
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_FASCISM
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
+					has_country_flag = SOV_AI_RANDOM_EXILES_TSARIST #SOV_AI_RANDOM_RETURN_OF_THE_TSAR
+					has_country_flag = SOV_AI_RANDOM_EXILES_FASCIST #SOV_AI_RANDOM_RUSSIAN_FASCISM
+					#has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RETURN_OF_THE_TSAR 
+						option = EXILES_TSARIST #RETURN_OF_THE_TSAR 
 					}
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_FASCISM 
+						option = EXILES_FASCIST #RUSSIAN_FASCISM 
 					}
-					has_game_rule = { 
-						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_REPUBLIC 
-					}
+					#has_game_rule = { 
+					#	rule = SOV_AI_BEHAVIOR
+					#	option = RUSSIAN_REPUBLIC 
+					#}
 				}
 			}			 
 		}
@@ -593,21 +593,21 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_country_flag = SOV_AI_RANDOM_RETURN_OF_THE_TSAR
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_FASCISM
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
+					has_country_flag = SOV_AI_RANDOM_EXILES_TSARIST #SOV_AI_RANDOM_RETURN_OF_THE_TSAR
+					has_country_flag = SOV_AI_RANDOM_EXILES_FASCIST #SOV_AI_RANDOM_RUSSIAN_FASCISM
+					#has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RETURN_OF_THE_TSAR 
+						option = EXILES_TSARIST #RETURN_OF_THE_TSAR 
 					}
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_FASCISM 
+						option = EXILES_FASCIST #RUSSIAN_FASCISM 
 					}
-					has_game_rule = { 
-						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_REPUBLIC 
-					}
+					#has_game_rule = { 
+					#	rule = SOV_AI_BEHAVIOR
+					#	option = RUSSIAN_REPUBLIC 
+					#}
 				}
 			}			
 		}
@@ -645,21 +645,21 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_country_flag = SOV_AI_RANDOM_RETURN_OF_THE_TSAR
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_FASCISM
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
+					has_country_flag = SOV_AI_RANDOM_EXILES_TSARIST #SOV_AI_RANDOM_RETURN_OF_THE_TSAR
+					has_country_flag = SOV_AI_RANDOM_EXILES_FASCIST #SOV_AI_RANDOM_RUSSIAN_FASCISM
+					#has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RETURN_OF_THE_TSAR 
+						option = EXILES_TSARIST #RETURN_OF_THE_TSAR 
 					}
 					has_game_rule = { 
 						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_FASCISM 
+						option = EXILES_FASCIST #RUSSIAN_FASCISM 
 					}
-					has_game_rule = { 
-						rule = SOV_AI_BEHAVIOR
-						option = RUSSIAN_REPUBLIC 
-					}
+					#has_game_rule = { 
+					#	rule = SOV_AI_BEHAVIOR
+					#	option = RUSSIAN_REPUBLIC 
+					#}
 				}
 			}
 		}
@@ -856,8 +856,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_country_flag = SOV_AI_RANDOM_RETURN_OF_THE_TSAR
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_FASCISM
+					has_country_flag = SOV_AI_RANDOM_EXILES_TSARIST #SOV_AI_RANDOM_RETURN_OF_THE_TSAR
+					has_country_flag = SOV_AI_RANDOM_EXILES_FASCIST #SOV_AI-RANDOM_RUSSIAN_FASCISM
 
 					has_game_rule = { 
 						rule = SOV_ai_behavior
@@ -899,8 +899,8 @@ country_event = {
 				factor = 0
 				OR = {
 
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_FASCISM
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
+					has_country_flag = SOV_AI_RANDOM_EXILES_FASCIST
+					#has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
 					has_game_rule = { 
 						rule = SOV_ai_behavior
 						option = EXILES_FASCIST
@@ -937,8 +937,8 @@ country_event = {
 			 modifier = {
 				factor = 0
 				OR = {
-					has_country_flag = SOV_AI_RANDOM_RETURN_OF_THE_TSAR
-					has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
+					has_country_flag = SOV_AI_RANDOM_EXILES_TSARIST #SOV_AI_RANDOM_RETURN_OF_THE_TSAR
+					#has_country_flag = SOV_AI_RANDOM_RUSSIAN_DEMOCRACY
 					has_game_rule = { 
 						rule = SOV_ai_behavior
 						option = EXILES_TSARIST
