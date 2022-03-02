@@ -964,7 +964,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = vittorio_ambrosio
+			idea_token = vittorio_ambrosio_army_chief
 			allowed = {
 				original_tag = ITA
 			}
@@ -978,7 +978,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = vittorio_ambrosio
+			idea_token = vittorio_ambrosio_high_command
 			ledger = army
 			allowed = {
 				original_tag = ITA
