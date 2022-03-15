@@ -40,8 +40,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 
 		icon = GFX_focus_generic_military_academy
 		x = 2
@@ -62,8 +61,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_colonial_assimilation_policy }
 
 		icon = GFX_focus_generic_little_entente
@@ -103,8 +101,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_colonial_assimilation_policy }
 		mutually_exclusive = { focus = POR_limited_self_rule }
 
@@ -153,8 +150,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_colonial_army }
 		mutually_exclusive = { focus = POR_luso_tropicalism }
 
@@ -261,8 +257,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_colonial_assimilation_policy }
 
 		icon = GFX_focus_generic_africa_infrastructure
@@ -321,8 +316,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_infrastructure_in_angola }
 		prerequisite = { focus = POR_roads_bridges_and_dams }
 
@@ -367,8 +361,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_develop_north_angola }
 
 		icon = GFX_focus_generic_africa_production
@@ -424,8 +417,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_develop_south_angola }
 
 		icon = GFX_goal_generic_oil_refinery
@@ -456,8 +448,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_develop_south_angola }
 
 		icon = GFX_focus_generic_africa_naval
@@ -508,8 +499,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {		
-		}
+
 			
 		icon = GFX_focus_generic_industry_2
 		x = 9
@@ -592,11 +582,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_instituto_superior_tecnico
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_continue_the_public_works }
 		icon = GFX_focus_research
 		x = 0
@@ -612,11 +600,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_ogme
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_instituto_superior_tecnico }
 		icon = GFX_goal_generic_build_airforce
 		x = -1
@@ -664,11 +650,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_ogma
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_instituto_superior_tecnico }
 		icon = GFX_goal_generic_air_production
 		x = 1
@@ -725,8 +709,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_instituto_superior_tecnico }
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 2
@@ -819,8 +802,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_roads_bridges_and_dams }
 		icon = GFX_goal_generic_construction2
 		x = 0
@@ -852,8 +834,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_extraction_industries }
 		icon = GFX_goal_italy_expand_hydroelectricity_production
 		x = 0
@@ -913,11 +894,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_military_vehicles
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_ogme }
 
 		icon = GFX_goal_generic_army_motorized
@@ -970,11 +949,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_portuguese_artillery
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_ogme }
 
 		icon = GFX_goal_generic_army_artillery
@@ -1029,11 +1006,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_advanced_artillery
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_portuguese_artillery}
 		prerequisite = { focus = POR_military_research_facilities}
 		icon = GFX_goal_generic_army_artillery2
@@ -1064,11 +1039,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_military_research_facilities
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_military_vehicles focus = POR_portuguese_artillery focus = POR_light_aircraft_focus }
 		icon = GFX_focus_research
 		x = 0
@@ -1084,11 +1057,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_armor_focus
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_military_research_facilities}
 		mutually_exclusive = { focus = POR_advanced_light_aircraft}
 		icon = GFX_goal_generic_army_tanks
@@ -1140,11 +1111,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_mechanized_focus
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_armor_focus}
 		icon = GFX_goal_generic_build_tank
 		x = 0
@@ -1165,11 +1134,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_light_aircraft_focus
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_ogma}
 		icon = GFX_goal_POR_coa_air_force
 		x = 0
@@ -1221,11 +1188,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_advanced_light_aircraft
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_light_aircraft_focus}
 		mutually_exclusive = { focus = POR_armor_focus}
 		icon = GFX_goal_generic_air_bomber
@@ -1249,11 +1214,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_jet_research
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_advanced_light_aircraft}
 		icon = GFX_goal_generic_air_fighter
 		x = 0
@@ -1274,11 +1237,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_industrial_modernization
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_instituto_superior_tecnico }
 		mutually_exclusive = { focus = POR_food_industries}
 		icon = GFX_goal_generic_construct_civ_factory
@@ -1304,8 +1265,7 @@ focus_tree = {
 			has_tech = advanced_machine_tools
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_industrial_modernization }
 		icon = GFX_focus_generic_industry_3
 		x = 0
@@ -1369,8 +1329,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_continue_the_public_works }
 		mutually_exclusive = { focus = POR_industrial_modernization }
 		icon = GFX_goal_generic_consumer_goods
@@ -1416,8 +1375,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_food_industries }
 		icon = GFX_goal_generic_trade
 		x = 0
@@ -1467,11 +1425,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_second_navy_reequipment
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = {
 		}
 		icon = GFX_goal_POR_coa_navy
@@ -1519,11 +1475,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_a_powerful_merchant_marine
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_second_navy_reequipment }
 		icon = GFX_goal_generic_navy_battleship
 		x = 0
@@ -1605,11 +1559,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_merchant_marine_protection
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_a_powerful_merchant_marine }
 		icon = GFX_goal_generic_amphibious_assault
 		x = 0
@@ -1642,11 +1594,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_submarine_effort
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_second_navy_reequipment }
 		icon = GFX_goal_generic_navy_submarine
 		x = -2
@@ -1674,11 +1624,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_fuzileiros
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_submarine_effort}
 		prerequisite = { focus = POR_merchant_marine_protection }
 		icon = GFX_goal_generic_occupy_states_coastal
@@ -1717,8 +1665,7 @@ focus_tree = {
 			num_of_naval_factories > 15
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_fuzileiros }
 		icon = GFX_focus_research
 		x = 0
@@ -1735,11 +1682,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_air_naval_research
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_naval_research_institute }
 		prerequisite = { focus = POR_advanced_light_aircraft }
 		icon = GFX_goal_generic_air_naval_bomber
@@ -1760,8 +1705,7 @@ focus_tree = {
 			has_full_control_of_state = 112
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_second_navy_reequipment }
 		icon = GFX_goal_generic_navy_cruiser
 		x = 2
@@ -1803,11 +1747,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_national_cruiser_production
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_arsenal_do_alfeite }
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 0
@@ -1836,11 +1778,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_battleship_effort
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_national_cruiser_production }
 		icon = GFX_focus_generic_navy_battleship2
 		x = -1
@@ -1887,11 +1827,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_carrier_effort
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_national_cruiser_production }
 		icon = GFX_goal_generic_navy_carrier
 		x = 1
@@ -1927,8 +1865,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_national_cruiser_production }
 		icon = GFX_focus_generic_destroyer
 		x = 0
@@ -2003,8 +1940,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_atlantic_defense_strategy }
 		icon = GFX_focus_generic_coastal_fort
 		x = 0
@@ -2092,11 +2028,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_army_reorganization
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = {
 		}
 		icon = GFX_goal_POR_coa_army
@@ -2115,11 +2049,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_metropolitan_army
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_army_reorganization }
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = -1
@@ -2143,11 +2075,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_standardization
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_metropolitan_army }
 		icon = GFX_focus_generic_rubber
 		x = 0
@@ -2171,8 +2101,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_standardization }
 		mutually_exclusive = { focus = POR_elastic_defense }
 		icon = GFX_focus_generic_provoke_border_clashes
@@ -2261,8 +2190,7 @@ focus_tree = {
 			has_full_control_of_state = 112
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_standardization }
 		mutually_exclusive = { focus = POR_defend_the_borders }
 		icon = GFX_goal_generic_defence
@@ -2295,11 +2223,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_tropas_paraquedistas
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_defend_the_borders focus = POR_elastic_defense }
 
 		icon = GFX_focus_generic_paratrooper
@@ -2329,11 +2255,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_regimento_de_comandos
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_tropas_paraquedistas }
 		icon = GFX_goal_generic_special_forces
 		x = 0
@@ -2369,11 +2293,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_corpo_do_estado_maior
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_army_reorganization }
 		icon = GFX_goal_generic_army_doctrines
 		x = 1
@@ -2389,11 +2311,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_staff_wargames
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_corpo_do_estado_maior }
 		icon = GFX_focus_generic_license_production
 		x = 0
@@ -2414,11 +2334,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_field_maneuvers
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_staff_wargames }
 		icon = GFX_focus_generic_manpower
 		x = 1
@@ -2442,11 +2360,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_popular_front
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		mutually_exclusive = { focus = POR_estado_novo}
 		prerequisite = {
 		}
@@ -2489,11 +2405,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_nation_in_arms
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_popular_front }
 		icon = GFX_focus_generic_attack_portugal
 		x = -5
@@ -2514,11 +2428,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_unify_leftist_youth_wings
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_nation_in_arms }
 		icon = GFX_goal_generic_war_with_comintern
 		x = -1
@@ -2616,8 +2528,7 @@ focus_tree = {
 			communism > 0.4
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_nationalize_industry }
 		prerequisite = { focus = POR_unify_leftist_youth_wings }
 		icon = GFX_focus_generic_soviet_politics
@@ -2724,8 +2635,7 @@ focus_tree = {
 			is_in_faction_with = SOV
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_comintern }
 		icon = GFX_focus_generic_socialist_science
 		x = -1
@@ -2838,8 +2748,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_cooperate_with_french_militants }
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		x = 0
@@ -3163,8 +3072,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_workers_of_iberia_unite }
 		icon = GFX_focus_generic_befriend_portugal
 		x = 0
@@ -3288,8 +3196,7 @@ focus_tree = {
 			has_government = communism
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_the_iberian_socialist_union }
 		mutually_exclusive = { focus = POR_join_the_comintern }
 		icon = GFX_focus_generic_diplomatic_treaty
@@ -3396,8 +3303,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_the_popular_front_bloc }
 		icon = GFX_focus_por_latin_american_communism
 		x = 0
@@ -3478,8 +3384,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_latin_american_communism }
 		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
 		x = 0
@@ -3736,8 +3641,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_they_need_our_help focus = POR_allow_free_elections }
 		icon = GFX_focus_focus_fra_intervention_spain
 		x = 0
@@ -3782,8 +3686,7 @@ focus_tree = {
 			has_government = democratic
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_allow_free_elections }
 
 		icon = GFX_focus_generic_treaty
@@ -3848,8 +3751,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_they_need_our_help focus = POR_allow_free_elections focus = POR_the_popular_front_bloc }
 		icon = GFX_focus_chi_united_front
 		x = -2
@@ -3989,11 +3891,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_british_guns
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_strict_neutrality_in_the_spanish_civil_war }
 		icon = GFX_goal_generic_military_sphere
 		x = 1
@@ -4106,8 +4006,7 @@ focus_tree = {
 			has_war = no
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_british_industrial_investments }
 		icon = GFX_goal_support_democracy
 		x = 0
@@ -4284,8 +4183,7 @@ focus_tree = {
 			is_in_faction_with = ENG
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_allies focus = POR_honor_anglo_portuguese_alliance }
 		icon = GFX_focus_research2
 		x = 2
@@ -4321,8 +4219,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_allies focus = POR_honor_anglo_portuguese_alliance }
 		icon = GFX_focus_ger_oppose_hitler
 		x = 4
@@ -4400,8 +4297,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_allow_free_elections focus = POR_send_assistance }
 
 		mutually_exclusive = { focus = POR_nationalist_intervention }
@@ -4421,11 +4317,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_estado_novo
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		mutually_exclusive = { focus = POR_popular_front}
 		prerequisite = {
 		}
@@ -4689,8 +4583,7 @@ focus_tree = {
 			has_civil_war = no
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_send_assistance}
 
 		mutually_exclusive = { focus = POR_iberian_summit }
@@ -4745,8 +4638,7 @@ focus_tree = {
 			factor = 1
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_portuguese_legion }
 
 		mutually_exclusive = { focus = POR_national_syndicalism }
@@ -4813,8 +4705,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_strengthen_the_regime }
 
 		icon = GFX_goal_generic_intelligence_exchange
@@ -4831,11 +4722,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_appease_monarchists
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_strengthen_the_regime }
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 0
@@ -4862,11 +4751,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_concordat_with_the_holy_see
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_appease_monarchists }
 		icon = GFX_focus_por_concordat
 		x = -1
@@ -4907,8 +4794,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 
 
 		prerequisite = { focus = POR_concordat_with_the_holy_see }
@@ -4972,8 +4858,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_appease_monarchists }
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 1
@@ -5020,8 +4905,7 @@ focus_tree = {
 			has_war = no
 		}
 
-		bypass = {
-		}
+
 
 		prerequisite = { focus = POR_national_gold_reserves }
 		prerequisite = { focus = POR_concordat_with_the_holy_see }
@@ -5066,8 +4950,7 @@ focus_tree = {
 			r56_script_i_am_sane = yes	
 		}
 
-		bypass = {
-		}
+
 
 		prerequisite = { focus = POR_proudly_alone }
 
@@ -5097,11 +4980,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_national_syndicalism
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_portuguese_legion }
 
 		mutually_exclusive = { focus = POR_strengthen_the_regime }
@@ -5134,8 +5015,7 @@ focus_tree = {
 			has_war = no
 		}
 
-		bypass = {
-		}
+
 
 		prerequisite = { focus = POR_national_syndicalism }
 		icon = GFX_goal_generic_forceful_treaty
@@ -5217,8 +5097,7 @@ focus_tree = {
 			has_government = fascism
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_ditadura_militar }
 		icon = GFX_focus_generic_military_mission
 		x = 0
@@ -5251,8 +5130,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_camisas_azuis }
 		mutually_exclusive = { focus = POR_the_fifth_empire }
 		icon = GFX_focus_chi_mission_to_germany
@@ -5276,8 +5154,7 @@ focus_tree = {
 			is_in_faction_with = GER
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_axis }
 		icon = GFX_goal_generic_scientific_exchange
 		x = -1
@@ -5298,8 +5175,7 @@ focus_tree = {
 			has_government = fascism
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_camisas_azuis }
 		mutually_exclusive = { focus = POR_join_the_axis }
 		icon = GFX_focus_por_the_fifth_empire
@@ -5368,8 +5244,7 @@ focus_tree = {
 			r56_script_i_am_sane = yes
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_axis focus = POR_the_fifth_empire }
 		icon = GFX_focus_usa_focus_on_asia
 		x = -1
@@ -5568,8 +5443,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_the_fifth_empire }
 		prerequisite = { focus = POR_recover_the_east_indies }
 		icon = GFX_focus_attack_japan
@@ -5674,8 +5548,7 @@ focus_tree = {
 			}
 		}
 
-		available = {
-		}
+
 
 		bypass = {
 			AND = {
@@ -5744,8 +5617,7 @@ focus_tree = {
 			}
 		}
 
-		available = {
-		}
+
 
 		bypass = {
 			owns_state = 336
@@ -5806,8 +5678,7 @@ focus_tree = {
 			}
 		}
 
-		available = {
-		}
+
 
 		bypass = {
 			owns_state = 500
@@ -5843,11 +5714,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_a_royal_wedding
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_estado_novo }
 
 		mutually_exclusive = { focus = POR_support_the_spanish_nationalists focus = POR_strict_neutrality_in_the_spanish_civil_war focus = POR_support_the_spanish_republic }
@@ -5893,11 +5762,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_the_return_of_duarte
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_a_royal_wedding }
 		icon = GFX_focus_generic_monarchy_1
 		x = 0
@@ -6144,8 +6011,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_join_the_carlist_fight }
 		mutually_exclusive = { focus = POR_remember_olivenca }
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
@@ -6163,11 +6029,9 @@ focus_tree = {
 
 	focus = {
 		id = POR_promote_the_monarchist_cause_in_portugal
-		available = {
-		}
 
-		bypass = {
-		}
+
+
 		prerequisite = { focus = POR_the_return_of_duarte }
 		icon = GFX_focus_generic_monarchy_2
 		x = 1
@@ -6406,8 +6270,7 @@ focus_tree = {
 			has_government = neutrality
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_promote_the_monarchist_cause_in_portugal }
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
@@ -6493,8 +6356,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_restoration_of_the_monarchy }
 		prerequisite = { focus = POR_the_empire_of_brazil }
 
@@ -6607,8 +6469,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = POR_remember_olivenca
-		available = {
-		}
+
 
 		ai_will_do = {
 			factor = 1
@@ -6927,8 +6788,7 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
-		}
+
 		prerequisite = { focus = POR_latin_america focus = POR_proudly_alone }
 
 		icon = GFX_focus_ger_great_red_menace

@@ -123,7 +123,6 @@ characters = {
 				available = {
 					has_completed_focus = POR_allow_free_elections
 				}
-				name = "POR_jose_manuel_sarmento_de_beires"
 				
 				traits = {
 					air_warfare_theorist
@@ -394,7 +393,6 @@ characters = {
 				available = {
 					has_completed_focus = POR_colonial_army 
 				}
-				name = POR_francisco_craveiro_lopes 
 				traits = {
 					quartermaster_general 
 				}
@@ -449,7 +447,6 @@ characters = {
 					original_tag = POR
 					has_dlc = "La Resistance"
 				}
-				name = "POR_jose_norton_de_matos"
 				
 				traits = {
 					military_theorist
@@ -680,6 +677,12 @@ characters = {
 	}
 
 	POR_jose_filipe_de_barros_rodrigues = {
+		name = POR_jose_filipe_de_barros_rodrigues
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_europe_5"
+			}
+		}
 		advisor = {
 			slot = high_command
 			idea_token = POR_jose_filipe_de_barros_rodrigues
@@ -691,20 +694,19 @@ characters = {
 				army_artillery_2
 			}
 			cost = 100
-			ledger = army
 			ai_will_do = {
 				factor = 1.000
-			}
-		}
-		name = POR_jose_filipe_de_barros_rodrigues
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_army_europe_5"
 			}
 		}
 	}
 
 	POR_francisco_da_costa_gomes = {
+		name = POR_francisco_da_costa_gomes
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_europe_3"
+			}
+		}
 		advisor = {
 			slot = high_command
 			idea_token = POR_francisco_da_costa_gomes
@@ -717,20 +719,19 @@ characters = {
 				army_infantry_2
 			}
 			cost = 100
-			ledger = army
 			ai_will_do = {
 				factor = 1.000
-			}
-		}
-		name = POR_francisco_da_costa_gomes
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_army_europe_3"
 			}
 		}
 	}
 
 	POR_lobato_guerra = {
+		name = POR_lobato_guerra
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_europe_4"
+			}
+		}
 		advisor = {
 			slot = army_chief
 			idea_token = POR_lobato_guerra
@@ -748,18 +749,19 @@ characters = {
 				factor = 1.000
 			}
 		}
-		name = POR_lobato_guerra
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_army_europe_4"
-			}
-		}
 	}
 
 	POR_jose_adriano_rebelo_pequito = {
+		name = POR_jose_adriano_rebelo_pequito
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_europe_2"
+			}
+		}
 		advisor = {
 			slot = high_command
 			idea_token = POR_jose_adriano_rebelo_pequito
+			ledger = army
 			allowed = {
 				original_tag = POR
 				NOT = {
@@ -770,15 +772,8 @@ characters = {
 				army_infantry_2
 			}
 			cost = 100
-			ledger = army
 			ai_will_do = {
 				factor = 1.000
-			}
-		}
-		name = POR_jose_adriano_rebelo_pequito
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_army_europe_2"
 			}
 		}
 	}
@@ -788,6 +783,12 @@ characters = {
 			allowed = {
 				NOT = {
 					has_dlc = "La Resistance"
+				}
+			}
+			name = POR_jaime_cortesao
+			portraits = {
+				army = {
+					small = "GFX_idea_generic_political_advisor_europe_3"
 				}
 			}
 			advisor = {
@@ -803,16 +804,16 @@ characters = {
 					captain_of_industry 
 				}
 			}
-			name = POR_jaime_cortesao
-			portraits = {
-				army = {
-					small = "GFX_idea_generic_political_advisor_europe_3"
-				}
-			}
 		}
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
+			}
+			name = POR_jaime_cortesao
+			portraits = {
+				army = {
+					small = "GFX_idea_generic_political_advisor_europe_4"
+				}
 			}
 			advisor = {
 				slot = political_advisor
@@ -824,25 +825,23 @@ characters = {
 				available = {
 					has_completed_focus = POR_allow_free_elections 
 				}
-				name = POR_jaime_cortesao 
 				traits = {
 					compassionate_gentleman 
-				}
-			}
-			name = POR_jaime_cortesao
-			portraits = {
-				army = {
-					small = "GFX_idea_generic_political_advisor_europe_4"
 				}
 			}
 		}
 	}
 
 	POR_alvaro_cunhal = {
+		name = POR_alvaro_cunhal
+		portraits = {
+			army = {
+				small = "GFX_idea_POR_alvaro_cunhal"
+			}
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = POR_alvaro_cunhal
-			name = POR_alvaro_cunhal 
 			allowed = {
 				has_dlc = "La Resistance"
 				original_tag = POR
@@ -867,12 +866,6 @@ characters = {
 			}
 			traits = {
 				communist_revolutionary 
-			}
-		}
-		name = POR_alvaro_cunhal
-		portraits = {
-			army = {
-				small = "GFX_idea_POR_alvaro_cunhal"
 			}
 		}
 	}
@@ -1107,7 +1100,6 @@ characters = {
 						has_government = democratic 
 					}
 				}
-				name = POR_augusto_de_vasconcelos 
 				ai_will_do = {
 					factor = 0.000
 				}
@@ -1269,7 +1261,6 @@ characters = {
 			advisor = {
 				slot = political_advisor
 				idea_token = POR_jose_hipolito_raposo
-				name = POR_jose_hipolito_raposo 
 				allowed = {
 					original_tag = POR
 					has_dlc = "La Resistance"
