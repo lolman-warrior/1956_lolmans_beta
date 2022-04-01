@@ -3540,6 +3540,15 @@ spriteTypes = {
 		name = "GFX_goal_GER_nationalize_aviation_industry"
 		texturefile = "gfx/interface/goals/ger/r56_goal_GER_nationalize_aviation_industry.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_STY_sooty"
+		texturefile = "gfx/interface/goals/STY/STY_sooty_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_STY_watergun_icon"
+		texturefile = "gfx/interface/goals/STY/STY_watergun_icon.dds"
+	}		
+	
 	# Was removed I think
 	#SpriteType = {
 	#	name = "GFX_goal_munich_agreement"

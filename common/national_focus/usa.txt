@@ -5571,6 +5571,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
+		mutually_exclusive = { focus = USA_selective_exclusion_acts }
 		cost = 10
 
 		ai_will_do = {
@@ -5596,6 +5597,663 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = USA_selective_exclusion_acts
+		text = "Selective Exclusion Acts"
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 1
+		prerequisite = { focus = USA_america_first }
+		mutually_exclusive = { focus = USA_extend_the_chinese_exclusion_acts }
+		relative_position_id = USA_america_first
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_the_republic_has_failed_us
+		text = "The Republic has Failed us"
+		icon = GFX_goal_generic_forceful_treaty
+		x = 4
+		y = 1
+		prerequisite = { focus = USA_america_first }
+		mutually_exclusive = { focus = USA_extend_the_chinese_exclusion_acts }
+		relative_position_id = USA_america_first
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_the_supreme_court_acts_as_a_regency_council
+		text = "The Supreme Court Acts as a Regency Council"
+		icon = GFX_goal_arrests
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_the_republic_has_failed_us }
+		relative_position_id = USA_the_republic_has_failed_us
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}		
+
+	
+	focus = {
+		id = USA_try_to_bring_back_the_golden_days
+		text = "Try to Bring back the Golden Days"
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_the_supreme_court_acts_as_a_regency_council }
+		relative_position_id = USA_the_supreme_court_acts_as_a_regency_council
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_the_persian_candidate
+		text = "The Persian_candidate"
+		icon = GFX_goal_generic_befriend_persia
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_try_to_bring_back_the_golden_days }
+		relative_position_id = USA_try_to_bring_back_the_golden_days
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}
+	focus = {
+		id = USA_the_manchurian_candidate
+		text = "The Manchurian Candidate"
+		icon = GFX_goal_man_for_the_emperor
+		x = -3
+		y = 1
+		prerequisite = { focus = USA_try_to_bring_back_the_golden_days }
+		prerequisite = { focus = USA_selective_exclusion_acts }
+		relative_position_id = USA_try_to_bring_back_the_golden_days
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}		
+	focus = {
+		id = USA_the_logistics_never_drops_a_crate
+		text = "The Logistics Never Drops a Crate"
+		icon = GFX_goal_generic_modernizing_the_cavalry2
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_the_persian_candidate }
+		relative_position_id = USA_the_persian_candidate
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_reform_the_artillery
+		text = "Reform the Artillery"
+		icon = GFX_goal_generic_army_artillery
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_the_persian_candidate }
+		relative_position_id = USA_the_persian_candidate
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_personal_union_with_poland
+		text = "Personal Union with Poland"
+		icon = GFX_goal_generic_befriend_poland
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_reform_the_artillery }
+		prerequisite = { focus = USA_the_logistics_never_drops_a_crate }
+		relative_position_id = USA_reform_the_artillery
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}			
+	focus = {
+		id = USA_the_forbidden_city_upon_a_hill
+		text = "The Forbidden City upon a Hill"
+		icon = GFX_goal_MAN_restore_the_empire
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_the_manchurian_candidate }
+		relative_position_id = USA_the_manchurian_candidate
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+	focus = {
+		id = USA_staff_the_court_with_manchus
+		text = MAN_staff_the_court_with_manchus
+		icon = GFX_goal_MAN_spread_restorationist_propaganda
+		prerequisite = { focus = USA_the_manchurian_candidate }
+		relative_position_id = USA_the_manchurian_candidate
+		x = 1
+		y = 1
+		relative_position_id = USA_the_manchurian_candidate
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}	
+
+
+	focus = {
+		id = USA_american_mandate_of_heaven
+		text = "American Mandate of Heaven"
+		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		prerequisite = { focus = USA_staff_the_court_with_manchus }
+		prerequisite = { focus = USA_the_forbidden_city_upon_a_hill }
+		x = -1
+		y = 1
+		relative_position_id = USA_staff_the_court_with_manchus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+			any_state = {
+				is_core_of = ROOT
+				
+				OR = {
+					is_controlled_by = ROOT
+					controller = {
+						is_subject_of = ROOT
+					}
+					state = 729
+					state = 326
+					state = 728
+					state = 524
+					state = 434
+					state = 329
+					state = 330
+
+					state = 817
+					state = 818
+					state = 819
+					state = 820					
+				}
+			}
+		#	all_state = { 
+		#		OR = {
+		#			is_core_of = ROOT
+		#			state = 729
+		#			state = 326
+		#			state = 728
+		#			state = 524
+		#			state = 434
+		#			state = 329
+		#			state = 330
+#
+		#			state = 817
+		#			state = 818
+		#			state = 819
+		#			state = 820
+		#			
+
+		#		}
+		#		
+		#	}
+		}
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			MAN_low_legitimacy_clear_all = yes	
+			set_cosmetic_tag = MAN_restored
+			hidden_effect = {
+				news_event = { id = wtt_news.44 days = 2 }
+				if = {
+					limit = {
+						has_dlc = "Waking the Tiger"
+					}
+					set_country_leader_portrait = {
+						ideology = neutrality
+						portrait = "gfx/leaders/MAN/portrait_man_henry_pu_yi.dds"
+					}
+					set_country_leader_portrait = {
+						ideology = fascism
+						portrait = "gfx/leaders/MAN/portrait_man_henry_pu_yi.dds"
+					}
+					set_country_leader_name = {
+						ideology = neutrality
+						name = "Xuantong"
+					}
+					set_country_leader_name = {
+						ideology = fascism
+						name = "Xuantong"
+					}
+				}
+				add_country_leader_trait = legitimate_heir
+			}
+		}
+	}
+
+	focus = {
+		id = USA_the_handy_candidate
+		text = "The Handy Candidate"
+		icon = GFX_goal_STY_sooty
+		x = 4
+		y = 1
+		prerequisite = { focus = USA_try_to_bring_back_the_golden_days }
+		relative_position_id = USA_try_to_bring_back_the_golden_days
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}
+	focus = {
+		id = USA_a_strong_hand
+		text = "A Strong Hand..."
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_the_handy_candidate }
+		relative_position_id = USA_the_handy_candidate
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}
+	focus = {
+		id = USA_in_a_fluffy_glove
+		text = "... in a 'Fluffy' Glove"
+		icon = GFX_goal_demand_sudetenland
+		x = 2
+		y = 1
+		prerequisite = { focus = USA_the_handy_candidate }
+		relative_position_id = USA_the_handy_candidate
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+
+	focus = {
+		id = USA_waterpistol_squads
+		text = "Water Pistol Squads"
+		icon = GFX_goal_STY_watergun_icon
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_a_strong_hand }
+		prerequisite = { focus = USA_in_a_fluffy_glove }
+		relative_position_id = USA_a_strong_hand
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}
+
+	focus = {
+		id = USA_no_humans_are_needed
+		text = "No Humans are Needed"
+		icon = GFX_goal_generic_secret_weapon
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_waterpistol_squads }
+		relative_position_id = USA_waterpistol_squads
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}	
+
+	focus = {
+		id = USA_perpetual_puppet_government
+		text = "Perpetual Puppet Government"
+		icon = GFX_goal_generic_communist_economy
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_no_humans_are_needed }
+		relative_position_id = USA_no_humans_are_needed
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			congress_low_support_trigger = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		
+		search_filters = {FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			USA_congress_large_support = yes
+			event_target:WTT_current_china_leader = {
+				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
+			}
+		}
+	}
+
 	focus = {
 		id = USA_empower_the_huac
 		icon = GFX_Goal_USA_HUAC
@@ -5689,7 +6347,7 @@ focus_tree = {
 	focus = {
 		id = USA_ally_with_the_silver_shirts
 		icon = GFX_Goal_USA_ally_silver_shirts
-		x = 4
+		x = 14
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
@@ -6146,7 +6804,7 @@ focus_tree = {
 	focus = {
 		id = USA_war_powers_act
 		icon = GFX_goal_generic_forceful_treaty
-		x = 13
+		x = 23
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		prerequisite = { focus = USA_war_department }
@@ -7053,7 +7711,7 @@ focus_tree = {
  	focus = {
 		id = USA_war_plans_division
 		icon = GFX_goal_CAN_scheme_no1
-		x = 47
+		x = 57
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		offset = {
@@ -8105,7 +8763,7 @@ focus_tree = {
 	focus = {
 		id = USA_war_department
 		icon = GFX_Goal_USA_department_of_defense
-		x = 63
+		x = 73
 		y = 0
 		offset = {
 			x = -26
