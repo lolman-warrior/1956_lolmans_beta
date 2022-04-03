@@ -9,6 +9,7 @@ state={
 	history={
 		owner = ADR
 		add_core_of = ADR
+		add_claim_by = CAT
 		victory_points = {
 			3898 3
 		}
