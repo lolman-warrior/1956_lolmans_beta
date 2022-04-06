@@ -838,3 +838,11 @@ CEL_UNIFIED = {
 	color = rgb { 1 135 73 }
 	color_ui = rgb { 1 135 73 }
 }
+ARM_reichskommissariat = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+UZB_reichskommissariat = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}

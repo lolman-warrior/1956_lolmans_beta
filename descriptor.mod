@@ -1,6 +1,6 @@
-version="1.11.*"
+version="1"
 tags={
-	"Beta"
+	"Alternative History"
 }
-name="doughe The Road to 56 [Beta]"
-remote_file_id="1088963694"
+name="Road to 56 Github"
+supported_version="1.11.5"

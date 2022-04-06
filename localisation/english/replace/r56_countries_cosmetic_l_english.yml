@@ -2067,3 +2067,10 @@
  ZIM_ENG_autonomy_integrated_puppet:0 "Colony of Southern Rhodesia"
  ZIM_ENG_autonomy_integrated_puppet_DEF:0 "the Colony of Southern Rhodesia"
  ZIM_ENG_autonomy_integrated_puppet_ADJ:0 "Southern Rhodesian"
+
+ ARM_reichskommissariat:0 "Reichskommissariat Kaukasus"
+ ARM_reichskommissariat_DEF:0 "Reichskommissariat Kaukasus"
+ ARM_reichskommissariat_ADJ:0 "Reichskommissariat Kaukasus"
+ UZB_reichskommissariat:0 "Reichskommissariat Turkestan"
+ UZB_reichskommissariat_DEF:0 "Reichskommissariat Turkestan"
+ UZB_reichskommissariat_ADJ:0 "Reichskommissariat Turkestan"
