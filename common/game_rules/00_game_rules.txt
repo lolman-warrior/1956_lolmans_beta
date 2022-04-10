@@ -672,6 +672,11 @@ DEN_ai_behavior = {
 		text = "RULE_OPTION_DEN_CHRISTIAN"
 		desc = "RULE_OPTION_DEN_CHRISTIAN_AI_DESC"
 	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
 }
 
 #-> EST: Estonia <><>
@@ -2902,7 +2907,17 @@ usa_fragmentation_status = {
 		name = USA_FRAGMENTED_DIXIE
 		text = "RULE_OPTION_USA_FRAGMENTED_DIXIE"
 		desc = "RULE_OPTION_USA_FRAGMENTED_DIXIE_DESC"
+	}
+	option = {
+		name = USA_FRAGMENTED_VICTORY
+		text = "RULE_OPTION_USA_FRAGMENTED_VICTORY"
+		desc = "RULE_OPTION_USA_FRAGMENTED_VICTORY_DESC"
 	}	
+	option = {
+		name = USA_FRAGMENTED_DIXIE_VICTORY
+		text = "RULE_OPTION_USA_FRAGMENTED_DIXIE_VICTORY"
+		desc = "RULE_OPTION_USA_FRAGMENTED_DIXIE_VICTORY_DESC"
+	}		
 }
 smi_liberation_status = {
 	name = "SMI_LIBERATION_STATUS"

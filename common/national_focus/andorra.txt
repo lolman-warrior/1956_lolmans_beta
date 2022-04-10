@@ -21,7 +21,7 @@ focus_tree = {
         }
         search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
         ai_will_do = {
-            factor = 0
+            factor = 100
         }
         completion_reward = {
             add_stability = 0.05
@@ -169,11 +169,19 @@ focus_tree = {
         }
         search_filters = {FOCUS_FILTER_STABILITY}
         ai_will_do = {
-            factor = 10
+            factor = 0
         }
         completion_reward = {
             add_stability = -0.1
             remove_ideas = neutrality_idea
+            if = {
+                limit = {
+                    ROOT = {
+                        is_ai = no
+                    }
+                }
+                add_war_support = 0.03
+            }
         }
     }
     focus = {
@@ -221,16 +229,26 @@ focus_tree = {
                 FRA = {
                     set_autonomy = {
                         target = ADR
-                        autonomous_state = autonomy_protectorate
+                        autonomous_state = autonomy_dominion
                         freedom_level = 0.6
-                    }		
+                    }
+                    add_opinion_modifier = { target = ROOT modifier = large_increase }	
                 }
-                add_opinion_modifier = { target = ROOT modifier = large_increase }
                 else = {
                     FRA = {
                         puppet = ADR
+                        add_opinion_modifier = { target = ROOT modifier = large_increase }
                     }
-                    add_opinion_modifier = { target = ROOT modifier = large_increase }
+                }
+            }
+            hidden_effect = {
+                set_politics = {
+                    ruling_party = neutrality
+                    elections_allowed = no
+                }
+                add_popularity = {
+                    ideology = neutrality
+                    popularity = 1
                 }
             }
         }
@@ -260,6 +278,7 @@ focus_tree = {
             factor = 10
         }
         completion_reward = {
+            add_political_power = 75 #refund
             load_focus_tree = generic_focus	
         }
     }
