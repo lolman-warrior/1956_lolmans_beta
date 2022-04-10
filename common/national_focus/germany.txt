@@ -8239,14 +8239,18 @@ focus = {
 	id = GER_Secure_Our_New_Position
 	icon = GFX_focus_generic_strike_at_democracy1
 	cost = 10 
-	x = 90
-	y = 0
+	x = 0
+	y = 4
 	
 	
-	
+	prerequisite = {
+		focus = GER_improve_national_spirit
+	}
 
+	relative_position_id = GER_improve_national_spirit
 	completion_reward = {
 		add_stability = 0.1
+		unlock_decision_tooltip = form_greater_german_reich
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 }

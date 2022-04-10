@@ -575,3 +575,11 @@ GER_venezuela_friend_desc:0 "The [VEN.GetADjective]s have already shown sympathy
  r56_yalta_occupation_tt:0 "If [FRA.GetNameDef], [ENG.GetNameDef], and [USA.GetNameDef] were present at the Yalta conference, they would divide [GER.GetNameDef] into occupation zones."
  r56_yalta_decisions_available_tt:0 "Decisions are made available to reestablish countries in the occupation zones of Germany and Austria."
  r56_yalta_decisions_available_2_tt:0 "Decisions are made available to establish new states in Germany and Austria if these are turned into areas of direct rule and occupation."
+
+#Greater German Tooltips
+  Greater_German_Reich_Bohemia_tt:0 "Fully Controls All of Bohemia"
+  Greater_German_Reich_Austria_tt:0 "Fully Controls All of Austria"
+  Greater_German_Reich_Poland_tt:0 "Fully Controls Western Poland and Danzig"
+  Greater_German_Reich_Alsace_tt:0 "Fully Controls Alsace-Lorraine and Luxembourg"
+
+  Greater_German_Reich_Germanic_States_tt:0 "Gains§Y Cores §!on All Germanic Land"
