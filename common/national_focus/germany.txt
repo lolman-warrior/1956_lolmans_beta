@@ -6842,10 +6842,11 @@ focus_tree = {
 		icon = GFX_focus_ger_reichskommisariats
 		cost = 10.00
 		prerequisite = {
-			focus =  GER_combine_SS_gestapo
+			focus =  GER_Secure_Our_New_Position
 		}
-		x = 66
-		y = 3
+		relative_position_id =  GER_Secure_Our_New_Position
+		x = -2
+		y = 1
 		ai_will_do = {
 			factor = 10		
 			modifier = {
@@ -6865,6 +6866,7 @@ focus_tree = {
 			unlock_decision_tooltip = GER_reichskommissariat_belgien_nordfrankreich
 			unlock_decision_tooltip = GER_reichskommissariat_ostland
 			unlock_decision_tooltip = GER_reichskommissariat_ukraine
+			
 		}
 
 	}
@@ -7006,8 +7008,8 @@ focus_tree = {
 			focus = GER_military_industrial_complex
 		}
 		relative_position_id = GER_military_industrial_complex
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 			ai_will_do = {
 					factor = 10
 				}
@@ -7099,8 +7101,8 @@ focus_tree = {
 			focus = GER_military_industrial_complex
 		}
 		relative_position_id = GER_military_industrial_complex
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		available = {
 			num_of_factories > 99
 		}
@@ -8237,22 +8239,6 @@ focus_tree = {
 
 
 
-focus = {
-	id = GER_Secure_Our_New_Position
-	icon = GFX_focus_generic_strike_at_democracy1
-	cost = 10 
-	x = 0
-	y = 4
-	
-	
-	prerequisite = {
-		focus = GER_improve_national_spirit
-	}
 
-	relative_position_id = GER_improve_national_spirit
-	completion_reward = {
-		add_stability = 0.1
-		unlock_decision_tooltip = form_greater_german_reich
-		}
-		search_filters = { FOCUS_FILTER_STABILITY }
-}
+
+

@@ -762,7 +762,7 @@ GER_reichskommissariats = {
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
-				has_completed_focus = GER_form_the_reichskommissariats_vanilla
+				has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 			}
 			has_government = fascism
 			controls_state = 94
@@ -848,7 +848,7 @@ GER_reichskommissariats = {
 		visible = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
-				has_completed_focus = GER_form_the_reichskommissariats_vanilla
+				has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 			}
 			has_government = fascism
 		}
@@ -903,6 +903,12 @@ GER_reichskommissariats = {
 					ideology = nazism
 				}
 				hidden_effect = {
+					BLR = {add_province_modifier = {
+						static_modifiers = { illegitimate_government }
+						province = {
+							all_provinces = yes
+						}
+					}}
 					every_state = {
 						limit = {
 							OR = {
@@ -953,7 +959,7 @@ GER_reichskommissariats = {
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
-				has_completed_focus = GER_form_the_reichskommissariats_vanilla
+				has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 			}
 			has_government = fascism
 			controls_state = 93
@@ -1047,7 +1053,7 @@ GER_reichskommissariats = {
 		visible = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
-				has_completed_focus = GER_form_the_reichskommissariats_vanilla
+				has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 			}
 			has_government = fascism
 		}
@@ -1110,7 +1116,7 @@ GER_reichskommissariats = {
 			available = {
 				OR = {
 					has_completed_focus = GER_form_the_reichskommissariats
-					has_completed_focus = GER_form_the_reichskommissariats_vanilla
+					has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 				}
 				has_government = fascism
 				controls_state = 230
@@ -1172,7 +1178,7 @@ GER_reichskommissariats = {
 			visible = {
 				OR = {
 					has_completed_focus = GER_form_the_reichskommissariats
-					has_completed_focus = GER_form_the_reichskommissariats_vanilla
+					has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 				}
 				has_government = fascism
 			}
@@ -1247,14 +1253,15 @@ GER_reichskommissariats = {
 
 
 
-GER_reichskommissariat_turkestan = {
+
+	GER_reichskommissariat_turkestan = {
 
 	icon = ger_reichskommissariats
 
 	available = {
 		OR = {
 			has_completed_focus = GER_form_the_reichskommissariats
-			has_completed_focus = GER_form_the_reichskommissariats_vanilla
+			has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 		}
 		has_government = fascism
 		controls_state = 584
@@ -1349,7 +1356,7 @@ GER_reichskommissariat_turkestan = {
 	visible = {
 		OR = {
 			has_completed_focus = GER_form_the_reichskommissariats
-			has_completed_focus = GER_form_the_reichskommissariats_vanilla
+			has_completed_focus = GER_expand_the_eastern_sphere_of_influence
 		}
 		has_government = fascism
 	}
@@ -1448,7 +1455,7 @@ GER_reichskommissariat_turkestan = {
 
 	}
 }
-]
+
 
 
 political_actions = {

@@ -2195,8 +2195,7 @@ focus_tree = {
 			unlock_decision_tooltip = GER_reichskommissariat_norwegen
 			unlock_decision_tooltip = GER_reichskommissariat_niederlande
 			unlock_decision_tooltip = GER_reichskommissariat_belgien_nordfrankreich
-			unlock_decision_tooltip = GER_reichskommissariat_ostland
-			unlock_decision_tooltip = GER_reichskommissariat_ukraine
+			
 		}
 	}
 	focus = {
@@ -10757,4 +10756,26 @@ focus_tree = {
 			}
 		}
 	}
+
+focus = {
+	id = GER_expand_the_eastern_sphere_of_influence
+	icon = GFX_focus_generic_strike_at_democracy1
+	cost = 10 
+	x = -1
+	y = 1
+	
+	
+	prerequisite = {
+		focus = GER_ussr_war_goal
+	}
+
+	relative_position_id = GER_ussr_war_goal
+	completion_reward = {
+		
+		unlock_decision_tooltip = GER_reichskommissariat_ostland
+		unlock_decision_tooltip = GER_reichskommissariat_ukraine
+		unlock_decision_tooltip = GER_reichskommissariat_kaukasus
+		unlock_decision_tooltip = GER_reichskommissariat_turkestan
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
 }
