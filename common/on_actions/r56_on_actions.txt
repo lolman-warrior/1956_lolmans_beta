@@ -13761,23 +13761,4 @@ on_actions = {
 			}
 		}
 	}
-
-
-
-
-	on_release_as_puppet = {
-		effect = {
-			if = {
-				limit = {
-					tag = BLR
-					has_cosmetic_tag = BLR_reichskommissariat
-				}
-			BLR = {add_province_modifier = {
-				static_modifiers = { illegitimate_government }
-				province = {
-					all_provinces = yes
-				}}
-	
-	}
-}}}
 }

@@ -5859,7 +5859,7 @@ focus_tree = {
 	focus = {
 		id = GER_improve_national_spirit_vanilla
 		text = GER_improve_national_spirit
-		prerequisite = { focus = GER_anschluss_vanilla }
+		prerequisite = { focus = GER_reintegrate_luxemburg_and_alsace_lorraine focus = GER_crossing_the_atlantic }
 		icon = GFX_goal_GER_european_reich
 		available = {
 			is_subject = no
@@ -5900,9 +5900,9 @@ focus_tree = {
 			}
 		}
 		cancel_if_invalid = no
-		x = 5
-		y = 1
-		relative_position_id = GER_anschluss_vanilla
+		x = 3
+		y = 3
+		relative_position_id = GER_reintegrate_luxemburg_and_alsace_lorraine
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -10766,6 +10766,7 @@ focus = {
 
 	available = {
 	has_completed_focus = GER_form_the_reichskommissariats_vanilla
+	NOT = {has_war_with = SOV}
 	}
 	
 	
@@ -10784,3 +10785,5 @@ focus = {
 		search_filters = { FOCUS_FILTER_STABILITY }
 }
 }
+
+

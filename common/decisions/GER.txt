@@ -495,12 +495,16 @@ GER_reichskommissariats = {
 					NOT = { NOR = { has_government = fascism } }
 				}
 				hidden_effect = {
+
 					NOR = {
 						set_state_controller = 110
 						set_state_controller = 142
 						set_state_controller = 143
 						set_state_controller = 144
 						set_state_controller = 895
+						every_controlled_state = {
+					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+				}
 					}
 				}
 				NOR = {
@@ -540,6 +544,9 @@ GER_reichskommissariats = {
 					transfer_state = 143
 					transfer_state = 144
 					transfer_state = 895
+					every_controlled_state = {
+						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+					}
 					set_cosmetic_tag = NOR_reichskommissariat
 					create_country_leader = {
 						name = "Josef Terboven"
@@ -607,6 +614,9 @@ GER_reichskommissariats = {
 						set_state_controller = 7
 						set_state_controller = 35
 						set_state_controller = 36
+						every_controlled_state = {
+							add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+						}
 					}
 				}
 				HOL = {
@@ -640,6 +650,9 @@ GER_reichskommissariats = {
 					transfer_state = 7
 					transfer_state = 35
 					transfer_state = 36
+					every_controlled_state = {
+						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+					}
 					set_cosmetic_tag = HOL_reichskommissariat
 					create_country_leader = {
 						name = "Arthur Seyss-Inquart"
@@ -706,6 +719,9 @@ GER_reichskommissariats = {
 					BEL = {
 						set_state_controller = 6
 						set_state_controller = 34
+						every_controlled_state = {
+							add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+						}
 					}
 				}
 				BEL = {
@@ -741,6 +757,9 @@ GER_reichskommissariats = {
 					transfer_state = 6
 					transfer_state = 29
 					transfer_state = 34
+					every_controlled_state = {
+						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+					}
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
 						name = "Josef Grohe"
@@ -893,7 +912,9 @@ GER_reichskommissariats = {
 						set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat }
 					}
 				}
-				
+				every_controlled_state = {
+					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+				}
 				set_cosmetic_tag = BLR_reichskommissariat
 				create_country_leader = {
 					name = "Hinrich Lohse"
@@ -903,12 +924,8 @@ GER_reichskommissariats = {
 					ideology = nazism
 				}
 				hidden_effect = {
-					BLR = {add_province_modifier = {
-						static_modifiers = { illegitimate_government }
-						province = {
-							all_provinces = yes
-						}
-					}}
+				}
+					}
 					every_state = {
 						limit = {
 							OR = {
@@ -949,8 +966,8 @@ GER_reichskommissariats = {
 					811 = { add_core_of = PREV }
 				}
 			}
-		}
-	}
+	
+	
 
 	GER_reichskommissariat_ukraine = {
 
@@ -1084,6 +1101,9 @@ GER_reichskommissariats = {
 				set_state_controller = 91
 				set_state_controller = 89
 				set_state_controller = 73
+				every_controlled_state = {
+					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+				}
 			
 				89 = { add_core_of = UKR }
 				91 = { add_core_of = UKR }
@@ -1199,7 +1219,11 @@ GER_reichskommissariats = {
 				set_state_controller = 821
 			}
 			hidden_effect = {
-				
+				ARM = {
+					every_controlled_state = {
+						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+					}
+				}
 				230 = { add_core_of = ARM }
 				229 = { add_core_of = ARM }
 				231 = { add_core_of = ARM }
@@ -1387,6 +1411,10 @@ GER_reichskommissariats = {
 			}
 
 			hidden_effect = {
+				UZB = {
+				every_controlled_state = {
+					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
+				}}
 				
 				584 = { add_core_of = UZB }
 				832 = { add_core_of = UZB }
@@ -1453,6 +1481,8 @@ GER_reichskommissariats = {
 				}
 			}
 
+	}
+}
 	}
 }
 
