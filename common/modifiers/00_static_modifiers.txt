@@ -629,7 +629,3 @@ SOV_for_the_common_good_relation = { #For Right Oppo allies
 	license_tech_difference_speed = 0.25 #less cost increase for each tech level between the license and own tech level
 }
 
-illegitimate_government = { # on Province
-	compliance_gain = 0.1
-	local_manpower = 0.5
-}

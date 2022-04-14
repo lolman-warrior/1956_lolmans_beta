@@ -184,3 +184,8 @@ DEN_Pan_Scandinavianism = {
 	}
 	compliance_gain = 0.075
 }
+
+illegitimate_government = { 
+	compliance_gain = 0.1
+	local_manpower = -0.5
+}
