@@ -446,7 +446,13 @@ GER_reichskommissariats = {
 	GER_reichskommissariat_norwegen = {
 
 		icon = ger_reichskommissariats
-
+		days_remove = 50
+		cost = 50
+		
+	   modifier = {
+		command_power_gain = -0.5
+		consumer_goods_factor = 0.02
+	}
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
@@ -489,6 +495,13 @@ GER_reichskommissariats = {
 		}
 
 		complete_effect = {
+			NOR = {
+				remove_state_core = 110 
+				remove_state_core = 142
+				remove_state_core = 143
+				remove_state_core = 144
+				remove_state_core = 895
+			}
 			if = {
 				limit = {
 					country_exists = NOR
@@ -502,6 +515,11 @@ GER_reichskommissariats = {
 						set_state_controller = 143
 						set_state_controller = 144
 						set_state_controller = 895
+						remove_state_core = 110 
+						remove_state_core = 142
+						remove_state_core = 143
+						remove_state_core = 144
+						remove_state_core = 895
 						every_controlled_state = {
 					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 				}
@@ -523,6 +541,7 @@ GER_reichskommissariats = {
 					transfer_state = 143
 					transfer_state = 144
 					transfer_state = 895
+					
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -544,6 +563,11 @@ GER_reichskommissariats = {
 					transfer_state = 143
 					transfer_state = 144
 					transfer_state = 895
+					remove_state_core = 110
+					remove_state_core = 142
+					remove_state_core = 143
+					remove_state_core = 144
+					remove_state_core = 895
 					every_controlled_state = {
 						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 					}
@@ -564,7 +588,12 @@ GER_reichskommissariats = {
 	GER_reichskommissariat_niederlande = {
 
 		icon = ger_reichskommissariats
-
+		days_remove = 50
+		cost = 50
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.02
+		}
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
@@ -604,6 +633,11 @@ GER_reichskommissariats = {
 		}
 
 		complete_effect = {
+			HOL = {
+				remove_state_core = 7
+				remove_state_core = 35
+				remove_state_core = 36
+			}
 			if = {
 				limit = {
 					country_exists = HOL
@@ -621,6 +655,9 @@ GER_reichskommissariats = {
 				}
 				HOL = {
 					start_civil_war = { ideology = fascism size = 1 }
+					remove_state_core = 7
+					remove_state_core = 35
+					remove_state_core = 36
 				}
 				random_country = {
 					limit= {
@@ -650,6 +687,9 @@ GER_reichskommissariats = {
 					transfer_state = 7
 					transfer_state = 35
 					transfer_state = 36
+					remove_state_core = 7
+					remove_state_core = 35
+					remove_state_core = 36
 					every_controlled_state = {
 						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 					}
@@ -670,7 +710,12 @@ GER_reichskommissariats = {
 	GER_reichskommissariat_belgien_nordfrankreich = {
 
 		icon = ger_reichskommissariats
-
+		days_remove = 50
+		cost = 50
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.02
+		}
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
@@ -726,6 +771,9 @@ GER_reichskommissariats = {
 				}
 				BEL = {
 					start_civil_war = { ideology = fascism size = 1 }
+					remove_state_core = 6
+					remove_state_core = 29 
+					remove_state_core = 34
 				}
 				random_country = {
 					limit= {
@@ -757,6 +805,9 @@ GER_reichskommissariats = {
 					transfer_state = 6
 					transfer_state = 29
 					transfer_state = 34
+					remove_state_core = 6
+					remove_state_core = 29
+					remove_state_core = 34 
 					every_controlled_state = {
 						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 					}
@@ -778,6 +829,12 @@ GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 
+		days_remove = 50
+		cost = 50
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.02
+		}
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
@@ -949,23 +1006,38 @@ GER_reichskommissariats = {
 						BLR = {
 							transfer_state = PREV
 						}
+						BLR = {
+							remove_state_core = 11
+							remove_state_core = 189
+							remove_state_core = 12
+							remove_state_core = 190 
+							remove_state_core = 13
+							remove_state_core = 191 
+							remove_state_core = 784
+							remove_state_core = 815 
+							remove_state_core = 809 
+							remove_state_core = 808
+							remove_state_core = 810
+							remove_state_core = 813
+							remove_state_core = 812
+							remove_state_core = 811
+							remove_state_core = 94 
+							remove_state_core = 194
+							remove_state_core = 241
+							remove_state_core = 204
+							remove_state_core = 95
+							remove_state_core = 206
+							remove_state_core = 862
+							remove_state_core = 207
+							remove_state_core = 96
+							remove_state_core = 863
+						
+
+						}}
 					}
-					11 = { add_core_of = PREV }
-					189 = { add_core_of = PREV }
-					12 = { add_core_of = PREV }
-					190 = { add_core_of = PREV }
-					13 = { add_core_of = PREV }
-					191 = { add_core_of = PREV }
-					784 = { add_core_of = PREV }
-					815 = { add_core_of = PREV }
-					809 = { add_core_of = PREV }
-					808 = { add_core_of = PREV }
-					810 = { add_core_of = PREV }
-					813 = { add_core_of = PREV }
-					812 = { add_core_of = PREV }
-					811 = { add_core_of = PREV }
+					
 				}
-			}
+			
 	
 	
 
@@ -973,6 +1045,13 @@ GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 
+		
+		days_remove = 50
+		cost = 50
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.02
+		}
 		available = {
 			OR = {
 				has_completed_focus = GER_form_the_reichskommissariats
@@ -1101,15 +1180,42 @@ GER_reichskommissariats = {
 				set_state_controller = 91
 				set_state_controller = 89
 				set_state_controller = 73
+				set_state_controller = 834
+			
 				every_controlled_state = {
 					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 				}
-			
-				89 = { add_core_of = UKR }
-				91 = { add_core_of = UKR }
-				93 = { add_core_of = UKR }
-				73 = { add_core_of = UKR }
+				remove_state_core = 93 
+				remove_state_core = 91 
+				remove_state_core = 89
+				remove_state_core = 199
+				remove_state_core = 201 
+				remove_state_core = 198 
+				remove_state_core = 202
+				remove_state_core = 193 
+				remove_state_core = 192
+				remove_state_core = 203
+				remove_state_core = 197
+				remove_state_core = 225 
+				remove_state_core = 259
+				remove_state_core = 226
+				remove_state_core = 196
+				remove_state_core = 200
+				remove_state_core = 221
+				remove_state_core = 228
+				remove_state_core = 227 
+				remove_state_core = 93
+				remove_state_core = 91
+				remove_state_core = 89 
+				remove_state_core = 73
+				remove_state_core = 834
 			}
+			
+				UKR = { add_state_claim = 89 }
+				UKR = { add_state_claim = 91 }
+				UKR = { add_state_claim = 93 }
+				UKR = { add_state_claim = 73 }
+			
 				GER = {
 					puppet = UKR
 					set_autonomy = { target = UKR autonomy_state = autonomy_integrated_puppet }
@@ -1132,7 +1238,12 @@ GER_reichskommissariats = {
 		GER_reichskommissariat_kaukasus = {
 
 			icon = ger_reichskommissariats
-	
+			days_remove = 50
+		cost = 50
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.02
+		}
 			available = {
 				OR = {
 					has_completed_focus = GER_form_the_reichskommissariats
@@ -1224,17 +1335,17 @@ GER_reichskommissariats = {
 						add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 					}
 				}
-				230 = { add_core_of = ARM }
-				229 = { add_core_of = ARM }
-				231 = { add_core_of = ARM }
-				234 = { add_core_of = ARM }
-				235 = { add_core_of = ARM }
-				232 = { add_core_of = ARM }
-				826 = { add_core_of = ARM }
-				827 = { add_core_of = ARM }
-				828 = { add_core_of = ARM }
-				821 = { add_core_of = ARM }
-				233 = { add_core_of = ARM }
+				ARM = { add_state_claim = 230 }
+				ARM = { add_state_claim = 229 }
+				ARM = { add_state_claim = 231 }
+				ARM = { add_state_claim = 234 }
+				ARM = { add_state_claim = 235 }
+				ARM = { add_state_claim = 232 }
+				ARM = { add_state_claim = 826 }
+				ARM = { add_state_claim = 827 }
+				ARM = { add_state_claim = 828 }
+				ARM = { add_state_claim = 821 }
+				ARM = { add_state_claim = 233 }
 
 
 				every_state = {
@@ -1281,7 +1392,12 @@ GER_reichskommissariats = {
 	GER_reichskommissariat_turkestan = {
 
 	icon = ger_reichskommissariats
-
+	days_remove = 50
+	cost = 50
+	modifier = {
+		command_power_gain = -0.5
+		consumer_goods_factor = 0.02
+	}
 	available = {
 		OR = {
 			has_completed_focus = GER_form_the_reichskommissariats
@@ -1416,26 +1532,26 @@ GER_reichskommissariats = {
 					add_dynamic_modifier = { modifier = r56_german_rks_illegitimate_government }
 				}}
 				
-				584 = { add_core_of = UZB }
-				832 = { add_core_of = UZB }
-				830 = { add_core_of = UZB }
-				405 = { add_core_of = UZB }
-				585 = { add_core_of = UZB }
-				823 = { add_core_of = UZB }
-				831 = { add_core_of = UZB }
-				826 = { add_core_of = UZB }
-				742 = { add_core_of = UZB }
-				732 = { add_core_of = UZB }
-				587 = { add_core_of = UZB }
-				406 = { add_core_of = UZB }
-				407 = { add_core_of = UZB }
-				402 = { add_core_of = UZB }
-				404 = { add_core_of = UZB }
-				590 = { add_core_of = UZB }
-				583 = { add_core_of = UZB }
-				588 = { add_core_of = UZB }
-				589 = { add_core_of = UZB }
-				586 = { add_core_of = UZB }
+				UZB = { add_state_claim = 584 }
+				UZB = { add_state_claim = 832 }
+				UZB = { add_state_claim = 830 }
+				UZB = { add_state_claim = 405 }
+				UZB = { add_state_claim = 585 }
+				UZB = { add_state_claim = 823 }
+				UZB = { add_state_claim = 831 }
+				UZB = { add_state_claim = 826 }
+				UZB = { add_state_claim = 742 }
+				UZB = { add_state_claim = 732 }
+				UZB = { add_state_claim = 587 }
+				UZB = { add_state_claim = 406 }
+				UZB = { add_state_claim = 407 }
+				UZB = { add_state_claim = 402 }
+				UZB = { add_state_claim = 404 }
+				UZB = { add_state_claim = 590 }
+				UZB = { add_state_claim = 583 }
+				UZB = { add_state_claim = 588 }
+				UZB = { add_state_claim = 589 }
+				UZB = { add_state_claim = 586 }
 
 
 				every_state = {

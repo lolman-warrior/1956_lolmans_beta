@@ -5302,7 +5302,7 @@ form_greater_german_reich_category = {
 			}
 			#NOT = { has_global_flag = form_greater_german_reich_flag }
 			OR = {
-			has_completed_focus =  GER_Secure_Our_New_Position
+			has_completed_focus =  GER_secure_our_new_position
 			}
 		}
 
@@ -5321,10 +5321,10 @@ form_greater_german_reich_category = {
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
 			# Bohemia 
-			75 = { add_claim_of = ROOT }
-			9 = { add_claim_of = ROOT }
-			74 = { add_core_of = ROOT }
-			69 = { add_core_of = ROOT }
+			ROOT = { add_state_claim = 75 }
+			ROOT = { add_state_claim = 9 }
+			ROOT = { add_state_claim = 74 }
+			ROOT = { add_state_claim = 69 }
 
 			# Austria 
 			153 = { add_core_of = ROOT }
@@ -5351,12 +5351,12 @@ form_greater_german_reich_category = {
 			39 = { add_core_of = ROOT }
 
 			#Claims for Western Poland
-			87 = { add_claim_of = ROOT}
-			98 = { add_claim_of = ROOT}
-			10 = { add_claim_of = ROOT}
-			90 = { add_claim_of = ROOT}
-			92 = { add_claim_of = ROOT}
-			88 = { add_claim_of = ROOT}
+			ROOT = { add_state_claim = 87 }
+			ROOT = { add_state_claim = 98 }
+			ROOT = { add_state_claim = 10 }
+			ROOT = { add_state_claim = 90 }
+			ROOT = { add_state_claim = 92 }
+			ROOT = { add_state_claim = 88 }
 			}
 		}
 		

@@ -165,9 +165,8 @@ r56_free_france_support = { # used by Free France to avoid african revolt
 r56_german_rks_illegitimate_government = { 
 
 	icon = GFX_looting_resistance_icon
-	remove_trigger = {
-    NOT = { is_subject_of = GER }
-	}
+	
+	enable = { always = yes }
     local_manpower = -0.5
 	resistance_growth = -0.03
 	compliance_gain = 0.1

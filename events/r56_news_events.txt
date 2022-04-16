@@ -1958,3 +1958,38 @@ news_event = {
 		}
 	}
 }
+#Germany Persures Peace With USA
+
+news_event = {
+	id = r56.washington_conference
+	title = r56.washington_conference.t
+	desc = r56.washington_conference.desc
+	picture = GFX_news_event_GER_hitler_couch
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = r56.washington_conference.a
+		
+		trigger = {
+			NOT = { tag = GER }
+		}
+	}
+	option = {
+		name = r56.washington_conference.b
+		
+		trigger = {
+			tag = GER
+		}
+	}
+
+	option = {
+		name = r56.washington_conference.c
+		
+		trigger = {
+			tag = USA
+		}
+	}
+}

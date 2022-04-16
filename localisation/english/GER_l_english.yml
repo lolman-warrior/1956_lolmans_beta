@@ -607,3 +607,9 @@ GER_venezuela_friend_desc:0 "The [VEN.GetADjective]s have already shown sympathy
 
   GER_expand_the_eastern_sphere_of_influence:0 "Expand the Eastern Sphere of Influence"
 
+# USA peace event loc
+  r56.washington_conference.t:0 "y Germany Persures Peace With The United States!"
+  r56.washington_conference.a:0 "An Intresting Devlopment"
+  r56.washington_conference.b:0 "Victory at last"
+  r56.washington_conference.c:0 "What Will Come of this?"
+

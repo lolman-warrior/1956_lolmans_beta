@@ -10784,6 +10784,120 @@ focus = {
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 }
+
+
+focus = {
+	id = GER_secure_our_new_position
+	icon = GFX_goal_SOV_baltic_aggression
+	cost = 10 
+	x = 0
+	y = 1
+
+	available = {
+	
+	}
+	
+	
+	prerequisite = {
+		focus = GER_improve_national_spirit_vanilla
+	}
+
+	relative_position_id = GER_improve_national_spirit_vanilla
+	completion_reward = {
+		add_stability = 0.1
+		unlock_decision_tooltip = form_greater_german_reich
+	}
 }
+
+
+
+#focus = {
+	#id = GER_economic_demobilzation
+	#icon = GFX_goal_SOV_baltic_aggression
+	#cost = 10 
+	#x = -3
+	#y = 1
+
+	#available = {
+	
+	#}
+
+	#mutually_exclusive = {
+		#focus = GER_continune_the_status_quo
+	#}
+	
+	
+	#prerequisite = {
+		#focus = GER_secure_our_new_position
+	#}
+
+	#relative_position_id = GER_secure_our_new_position
+	#completion_reward = {
+	#add_ideas = partial_economic_mobilisation
+	#add_war_support = -0.2
+	#}
+#}
+
+
+#focus = {
+	#id = GER_continune_the_status_quo
+	#icon = GFX_goal_SOV_baltic_aggression
+	#cost = 10 
+	#x = 3
+	#y = 1
+
+	#available = {
+	
+	#}
+	
+	#mutually_exclusive = {
+		#focus = GER_economic_demobilzation
+	#}
+
+	
+	#prerequisite = {
+		#focus = GER_secure_our_new_position
+	#}
+
+	#relative_position_id = GER_secure_our_new_position
+	#completion_reward = {
+	#add_timed_idea = {
+		#idea = r56i_idea_riots
+		#days = 365
+	#} 
+	#add_stability = -0.2
+	#}
+#}
+
+
+focus = {
+	id = GER_the_washington_conference
+	icon = GFX_goal_SOV_baltic_aggression
+	cost = 10 
+	x = 0
+	y = 1
+
+	available = {
+	has_war_with = USA
+	}
+	
+	bypass = { NOT = {has_war_with = USA}
+}
+	
+	prerequisite = {
+		focus = GER_secure_our_new_position
+	}
+
+	relative_position_id = GER_secure_our_new_position
+	completion_reward = {
+	
+	news_event = { id = r56.washington_conference }
+	
+	
+	}
+}
+}
+	
+
 
 
