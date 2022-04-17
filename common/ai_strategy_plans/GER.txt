@@ -70,9 +70,6 @@ GER_fascist_aggressive_standard = {
 	}
 
 	ai_national_focuses = {
-		#Always go for these focuses when available:
-		GER_weserubung_vanilla
-		GER_around_maginot_vanilla
 
 		#1936
 		GER_rhineland_vanilla
@@ -100,12 +97,12 @@ GER_fascist_aggressive_standard = {
 		GER_end_of_czechoslovakia_vanilla
 		GER_mol_rib_pact_vanilla
 		GER_danzig_or_war_vanilla
-		#GER_weserubung_vanilla #Estimated to be completed around here.
+		GER_autobahn_vanilla
 
 		#1940
-		#GER_around_maginot_vanilla #Estimated to be completed around here.
-		GER_war_with_france_vanilla
-		GER_autobahn_vanilla
+		GER_weserubung_vanilla
+		GER_around_maginot_vanilla
+		GER_war_with_france_vanilla #Should bypass at this point.
 		GER_german_war_economy
 		GER_second_vienna_award_vanilla
 		GER_extra_tech_slot
@@ -113,13 +110,13 @@ GER_fascist_aggressive_standard = {
 		#1941
 		GER_rocketry_focus
 		GER_italy_ally
+		GER_ussr_war_goal
 		GER_japan_friend
 		GER_air_innovation
-		GER_tactical_air_effort
 
 		#1942+
+		GER_tactical_air_effort
 		GER_naval_air_effort
-		GER_ussr_war_goal
 		GER_air_innovation_2
 		GER_naval_rearmament
 		GER_naval_effort

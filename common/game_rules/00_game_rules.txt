@@ -857,9 +857,9 @@ GER_ai_behavior = {
 		allow_achievements = yes
 	}
 	option = {
-		name = FASCIST_PASSIVE
-		text = "RULE_OPTION_FASCIST_PASSIVE_GER"
-		desc = "RULE_OPTION_FASCIST_PASSIVE_GER_AI_DESC"
+		name = FASCIST_ALTERNATE
+		text = "RULE_OPTION_FASCIST_ALTERNATE_GER"
+		desc = "RULE_OPTION_FASCIST_ALTERNATE_GER_AI_DESC"
 		allow_achievements = yes
 	}
 	option = {

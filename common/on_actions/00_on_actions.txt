@@ -1057,7 +1057,6 @@ on_actions = {
 			GER = {
 				if = {
 					limit = {
-						has_dlc = "Waking the Tiger"
 						has_game_rule = {
 							rule = GER_focus_tree_selection
 							option = STANDARD_TREE
@@ -1077,13 +1076,55 @@ on_actions = {
 						}
 					}
 					random_list = {
-						50 = { GER = { set_country_flag = GER_AI_RANDOM_FASCIST_AGGRESSIVE } }
-						20 = { GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_CENTRAL_POWERS } }
-						10 = { GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_ALLIES } }
-						10 = { GER = { set_country_flag = GER_AI_RANDOM_DEMOCRATIC } }
-						5 = { GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_WORLD_REVOLUTION } }
-						4 = { GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_COMINTERN } }
-						1 = { GER = { set_country_flag = GER_AI_RANDOM_FASCIST_PASSIVE } }
+						50 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_FASCIST_AGGRESSIVE }
+							modifier = {
+								factor = 80
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						25 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_CENTRAL_POWERS }
+							modifier = {
+								factor = 0
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						5 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_ALLIES }
+							modifier = {
+								factor = 0
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						5 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_DEMOCRATIC }
+							modifier = {
+								factor = 0
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						5 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_WORLD_REVOLUTION }
+							modifier = {
+								factor = 0
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						5 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_COMINTERN }
+							modifier = {
+								factor = 0
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
+						5 = { 
+							GER = { set_country_flag = GER_AI_RANDOM_FASCIST_ALTERNATE }
+							modifier = {
+								factor = 20
+								NOT = { has_dlc = "Waking the Tiger" }
+							}
+						}
 					}
 				}
 				if = {
@@ -1109,10 +1150,10 @@ on_actions = {
 					random_list = {
 						50 = { GER = { set_country_flag = GER_AI_RANDOM_FASCIST_AGGRESSIVE } }
 						30 = { GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_CENTRAL_POWERS } }
-						10 = { GER = { set_country_flag = GER_AI_RANDOM_DEMOCRATIC } }
+						5 = { GER = { set_country_flag = GER_AI_RANDOM_DEMOCRATIC } }
 						5 = { GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_WORLD_REVOLUTION } }
-						4 = { GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_COMINTERN } }
-						1 = { GER = { set_country_flag = GER_AI_RANDOM_FASCIST_PASSIVE } }
+						5 = { GER = { set_country_flag = GER_AI_RANDOM_COMMUNIST_COMINTERN } }
+						5 = { GER = { set_country_flag = GER_AI_RANDOM_FASCIST_ALTERNATE } }
 						0 = { GER = { set_country_flag = GER_AI_RANDOM_MONARCHIST_ALLIES } }
 					}
 				}
