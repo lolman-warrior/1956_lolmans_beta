@@ -100,7 +100,9 @@ GER_fascist_aggressive_standard = {
 		GER_autobahn_vanilla
 
 		#1940
+		GER_grosraumwirtschaft
 		GER_weserubung_vanilla
+		GER_train_panzergrenadiers_standard
 		GER_around_maginot_vanilla
 		GER_war_with_france_vanilla #Should bypass at this point.
 		GER_german_war_economy
@@ -110,12 +112,12 @@ GER_fascist_aggressive_standard = {
 		#1941
 		GER_rocketry_focus
 		GER_italy_ally
-		GER_ussr_war_goal
 		GER_japan_friend
+		GER_ussr_war_goal
 		GER_air_innovation
+		GER_tactical_air_effort
 
 		#1942+
-		GER_tactical_air_effort
 		GER_naval_air_effort
 		GER_air_innovation_2
 		GER_naval_rearmament
