@@ -13,6 +13,8 @@ if = {
 	}
 }
 
+add_ideas = SPR_reliance_on_imports
+
 if = {
 	limit = {
 		OR = {
