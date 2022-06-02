@@ -819,6 +819,8 @@
  FIN_fascism_DEF:0 "the Greater Republic of Finland"
  FIN_democratic:1 "Republic of Finland"
  FIN_democratic_DEF:1 "the Republic of Finland"
+ FIN_neutrality:1 "Republic of Finland"
+ FIN_neutrality_DEF:1 "the Republic of Finland"
 
  #FRA
  FRA_fascism:0 "French State"
@@ -2561,8 +2563,8 @@
  USA_fascism_DEF:0 "the United States of America"
  USA_neutrality:1 "United States of America"
  USA_neutrality_DEF:1 "the United States of America"
- USA_communism:0 "United States of America"
- USA_communism_DEF:0 "the United States of America"
+ USA_communism:0 "United Communist States of America"
+ USA_communism_DEF:0 "the United Communist States of America"
 
  #USB
  USB_fascism:0 "New American Republic"
