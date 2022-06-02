@@ -8,7 +8,7 @@ state={
 	
 	resources={
 		oil=2
-		steel=44 # was: 80
+		steel=50 #was 44 (6 from France ) # was: 80
 	}
 
 	history={

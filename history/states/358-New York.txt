@@ -2,7 +2,7 @@ state={
 	id=358
 	name="STATE_358"
 	resources={
-		steel=13 
+		steel=27 #was 13 (14 from France) 
 		oil=1
 	}
 	

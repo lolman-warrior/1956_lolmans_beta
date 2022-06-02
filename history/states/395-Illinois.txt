@@ -6,6 +6,7 @@ state={
 	state_category = megalopolis
 	resources={
 		oil=1
+		steel=6 #was 0 (6 from France)
 	}
 	history={
 		owner = USA
