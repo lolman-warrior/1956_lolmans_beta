@@ -4323,12 +4323,7 @@ leader_traits = {
 	blitzkrieg_theorist = {
 		sprite = 14
 
-		equipment_bonus = {
-			armor = {
-				instant = yes
-				maximum_speed = 0.10
-			}
-		}
+		army_speed_factor = 0.1
 		cat_mobile_warfare_cost_factor = -0.10
 
 		ai_will_do = {
