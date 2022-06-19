@@ -2651,7 +2651,7 @@ focus_tree = {
 
 	focus = {
 		id = POL_Cegielski_Artillery_Factory
-		icon = GFX_goal_artillery_factories
+		icon = GFX_goal_generic_munitions_factories
 		prerequisite = { focus = POL_Artillery_Motorization }
 		
 		x = 1
@@ -8277,7 +8277,7 @@ focus_tree = {
 			}
 
 			division_template = {
-				name = "Red Division"
+				name = "Czerwona Dywizja"
 				priority = 2
 				#template_counter = 0
 				division_names_group = POL_INF_01
